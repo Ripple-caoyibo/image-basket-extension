@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Microsoft YaHei", Arial, sans-serif;
+  color: #17212f;
+  background: #f5f7f8;
+}
+
+.hero {
+  min-height: 78vh;
+  padding: 24px min(6vw, 72px);
+  color: white;
+  background:
+    linear-gradient(rgba(18, 41, 37, .72), rgba(18, 41, 37, .62)),
+    url("https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=1600&q=80") center / cover;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a,
+.button {
+  display: inline-flex;
+  align-items: center;
+  min-height: 42px;
+  border-radius: 8px;
+  padding: 0 16px;
+  color: white;
+  background: #2f6f66;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.hero section {
+  max-width: 720px;
+  margin-top: 16vh;
+}
+
+.hero p {
+  margin: 0 0 12px;
+  font-weight: 700;
+}
+
+h1 {
+  margin: 0 0 28px;
+  font-size: clamp(40px, 6vw, 76px);
+  line-height: 1.05;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 42px 24px;
+}
+
+article {
+  min-height: 160px;
+  padding: 22px;
+  border: 1px solid #dfe5e8;
+  border-radius: 8px;
+  background: white;
+}
+
+h2 {
+  margin: 0 0 10px;
+  font-size: 22px;
+}
+
+article p {
+  margin: 0;
+  color: #5b6673;
+  line-height: 1.7;
+}

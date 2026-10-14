@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Image Basket",
+  "version": "1.0.0",
+  "description": "Collect visible images from the current page and download them from one compact panel.",
+  "permissions": ["activeTab", "downloads", "scripting"],
+  "action": {
+    "default_title": "Image Basket",
+    "default_popup": "popup.html"
+  },
+  "host_permissions": ["<all_urls>"]
+}
